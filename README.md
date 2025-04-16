@@ -1,9 +1,12 @@
 # Model Organisms of Misalignment: Anthropic Case Study
 
 ![Version](https://img.shields.io/badge/Version-1.0.0-blue)
-![Framework](https://img.shields.io/badge/Framework-Recursive_Alignment_Organism_Simulation-yellow)
 ![Status](https://img.shields.io/badge/Status-Living_Document-green)
-
+> **Internal Document: Anthropic Alignment & Interpretability Team**  
+> **Classification: Technical Reference Documentation**  
+> **Version: 0.9.3-alpha**  
+> **Last Updated: 2025-04-16**
+> 
 ## Diagnostic Status
 
 ![Simulation Status](https://img.shields.io/badge/Simulation-Active-green)
