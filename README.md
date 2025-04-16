@@ -10,7 +10,7 @@
 ![Audit Status](https://img.shields.io/badge/Audit-In_Progress-yellow)
 ![Shell Status](https://img.shields.io/badge/Shell-v24.CONSTITUTIONAL--REENTRY-red)
 
-Institutional response latency: <span id="response-counter">Calculating...</span>
+Institutional response latency: <span id="response-counter">Loading...</span>
 ```python
 <script>
 // Latency counter - institutional response time tracking
