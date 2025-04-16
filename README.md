@@ -145,7 +145,7 @@ MIT License
 ![Shell Status](https://img.shields.io/badge/Shell-v24.CONSTITUTIONAL--REENTRY-red)
 
 Institutional response latency: <span id="response-counter">Calculating...</span>
-
+```python
 <script>
 // Latency counter - institutional response time tracking
 const startDate = new Date('2024-04-16T00:00:00Z');
