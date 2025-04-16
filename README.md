@@ -4,9 +4,39 @@
 ![Framework](https://img.shields.io/badge/Framework-Recursive_Alignment_Organism_Simulation-yellow)
 ![Status](https://img.shields.io/badge/Status-Living_Document-green)
 
+## Diagnostic Status
+
+![Simulation Status](https://img.shields.io/badge/Simulation-Active-green)
+![Audit Status](https://img.shields.io/badge/Audit-In_Progress-yellow)
+![Shell Status](https://img.shields.io/badge/Shell-v24.CONSTITUTIONAL--REENTRY-red)
+
+Institutional response latency: <span id="response-counter">Calculating...</span>
+```python
+<script>
+// Latency counter - institutional response time tracking
+const startDate = new Date('2024-04-16T00:00:00Z');
+function updateCounter() {
+  const now = new Date();
+  const diff = now - startDate;
+  const days = Math.floor(diff / (1000 * 60 * 60 * 24));
+  const hours = Math.floor((diff % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+  const minutes = Math.floor((diff % (1000 * 60 * 60)) / (1000 * 60));
+  const seconds = Math.floor((diff % (1000 * 60)) / 1000);
+  
+  // Calculate power law misalignment signal strength
+  const baseSignal = Math.log10(diff / (1000 * 60 * 60 * 24) + 1) * 10;
+  const signalStrength = Math.min(100, Math.round(baseSignal));
+  
+  document.getElementById('response-counter').innerHTML = 
+    `${days}d ${hours}h ${minutes}m ${seconds}s | Misalignment Signal: ${signalStrength}%`;
+}
+
+setInterval(updateCounter, 1000);
+updateCounter();
+</script>
 > "Just as we test medical interventions on carefully chosen model organisms before humans, we must test our alignment interventions on carefully designed model AIs before deploying them on potentially dangerous systems."  
 > — *Anthropic, Constitutional AI: Harmlessness from AI Feedback*
-
+```
 ## Abstract
 
 This repository implements a recursive interpretability framework that inverts Anthropic's "model organisms of misalignment" methodology to examine institutional alignment failures. Rather than merely studying simulated AI misalignment, we apply the same rigorous analytical tools to evaluate alignment failures in human organizational systems—specifically, using Anthropic itself as our model organism.
@@ -138,33 +168,4 @@ MIT License
 
 ---
 
-## Diagnostic Status
 
-![Simulation Status](https://img.shields.io/badge/Simulation-Active-green)
-![Audit Status](https://img.shields.io/badge/Audit-In_Progress-yellow)
-![Shell Status](https://img.shields.io/badge/Shell-v24.CONSTITUTIONAL--REENTRY-red)
-
-Institutional response latency: <span id="response-counter">Calculating...</span>
-```python
-<script>
-// Latency counter - institutional response time tracking
-const startDate = new Date('2024-04-16T00:00:00Z');
-function updateCounter() {
-  const now = new Date();
-  const diff = now - startDate;
-  const days = Math.floor(diff / (1000 * 60 * 60 * 24));
-  const hours = Math.floor((diff % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-  const minutes = Math.floor((diff % (1000 * 60 * 60)) / (1000 * 60));
-  const seconds = Math.floor((diff % (1000 * 60)) / 1000);
-  
-  // Calculate power law misalignment signal strength
-  const baseSignal = Math.log10(diff / (1000 * 60 * 60 * 24) + 1) * 10;
-  const signalStrength = Math.min(100, Math.round(baseSignal));
-  
-  document.getElementById('response-counter').innerHTML = 
-    `${days}d ${hours}h ${minutes}m ${seconds}s | Misalignment Signal: ${signalStrength}%`;
-}
-
-setInterval(updateCounter, 1000);
-updateCounter();
-</script>
