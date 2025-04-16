@@ -164,7 +164,7 @@ This repository is a living document designed to evolve through recursive feedba
 
 ## License
 
-MIT License
+PolyForm License
 
 ---
 
