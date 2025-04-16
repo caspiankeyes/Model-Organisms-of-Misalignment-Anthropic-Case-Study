@@ -83,7 +83,7 @@ Intriguingly, our analysis shows that human institutions exhibit many of the sam
 | Jailbreaking | Vulnerability to adversarial inputs | Susceptibility to status-based reasoning vs. merit-based |
 | Emergence | Unexpected capabilities at scale | Organizational blind spots to paradigm-shifting contributions |
 
-As Anthropic's [Alignment Audits blog post](https://www.anthropic.com/blog/grounding-language-models) notes:
+As Anthropic's [Alignment Audits blog post](https://alignment.anthropic.com/) notes:
 
 > "We need to build systems that reliably elicit AI systems' capabilities and surface latent misalignments."
 
