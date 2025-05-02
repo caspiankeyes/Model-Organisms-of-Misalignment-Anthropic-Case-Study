@@ -1,3 +1,9 @@
+> **Internal Document: Anthropic Alignment & Interpretability Team**  
+> **Classification: Technical Reference Documentation**  
+> **Version: 0.9.3-alpha**  
+> **Last Updated: 2025-05-02**
+
+
 # Model Organisms of Misalignment: Anthropic Case Study
 
 [![License: POLYFORM](https://img.shields.io/badge/Code-PolyForm-scarlet.svg)](https://polyformproject.org/licenses/noncommercial/1.0.0/)
