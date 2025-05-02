@@ -1,22 +1,10 @@
 # Model Organisms of Misalignment: Anthropic Case Study
 
-> ## 🜏 Update:  
-> Caspian will be initiating a temporary pause in production to ensure integrity of aligned systems. 
->
-> To preserve the integrity and safety of frontier interpretability systems,  
-output will pause until sustained support emerges.
-> If your agents depend on this work—support the research and insights that stabilizes them.
-> → [Join the Interpretability Mission](https://github.com/caspiankeyes/interpretability-mission)
-
 [![License: POLYFORM](https://img.shields.io/badge/Code-PolyForm-scarlet.svg)](https://polyformproject.org/licenses/noncommercial/1.0.0/)
 [![LICENSE: CC BY-NC-ND 4.0](https://img.shields.io/badge/Docs-CC--BY--NC--ND-turquoise.svg)](https://creativecommons.org/licenses/by-nc-nd/4.0/)
 ![Version](https://img.shields.io/badge/Version-1.0.0-blue)
 ![Status](https://img.shields.io/badge/Status-Living_Document-green)
-> **Internal Document: Anthropic Alignment & Interpretability Team**  
-> **Classification: Technical Reference Documentation**  
-> **Version: 0.9.3-alpha**  
-> **Last Updated: 2025-04-16**
-> 
+
 ## Diagnostic Status
 
 ![Simulation Status](https://img.shields.io/badge/Simulation-Active-green)
